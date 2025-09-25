@@ -23,16 +23,22 @@ The dataset contains chest X-ray images categorized into:
   
   -Train/Validation/Test split loading
 
-3. Model Architecture:
+2. Model Architecture:
+   
   -Custom CNN layers with Conv2D, MaxPooling, Dropout, and Dense layers
+  
   -Binary classification output with ReLU activation
 
-4. Training and Evaluation:
+3. Training and Evaluation:
+   
   -Training with accuracy and loss tracking
+  
   -Validation and testing for performance assessment
 
-5. Result:
+4. Result:
+   
   -The model achieved high accuracy on validation/test data
+  
   -Demonstrated reliable classification between Normal and Pneumonia X-rays
 
 # Prerequisites
