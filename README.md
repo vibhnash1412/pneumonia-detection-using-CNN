@@ -16,30 +16,21 @@ The dataset contains chest X-ray images categorized into:
 # Project Workflow
 
 1. Data Preprocessing:
+  -Dataset downloaded from Kaggle and unzip it
+  -Image resizing, normalization, and greyscale conversion
+  -Train/Validation/Test split loading
 
-Dataset downloaded from Kaggle and unzip it
+2. Model Architecture:
+  -Custom CNN layers with Conv2D, MaxPooling, Dropout, and Dense layers
+  -Binary classification output with ReLU activation
 
-Image resizing, normalization, and greyscale conversion
+3. Training and Evaluation:
+  -Training with accuracy and loss tracking
+  -Validation and testing for performance assessment
 
-Train/Validation/Test split loading
-
-2. Model Architecture
-
-Custom CNN layers with Conv2D, MaxPooling, Dropout, and Dense layers
-
-Binary classification output with ReLU activation
-
-3. Training and Evaluation
-
-Training with accuracy and loss tracking
-
-Validation and testing for performance assessment
-
-4. Result
-
-The model achieved high accuracy on validation/test data
-
-Demonstrated reliable classification between Normal and Pneumonia X-rays
+4. Result:
+  -The model achieved high accuracy on validation/test data
+  -Demonstrated reliable classification between Normal and Pneumonia X-rays
 
 # Prerequisites
 1. Python 3.8+
@@ -48,5 +39,5 @@ Demonstrated reliable classification between Normal and Pneumonia X-rays
 
 # Future Improvements
 
-  Experiment with transfer learning (VGG16, ResNet, EfficientNet).
-  Deploy model in a web app (Flask/Streamlit).
+1. Experiment with transfer learning (VGG16, ResNet, EfficientNet).
+2. Deploy model in a web app (Flask/Streamlit).
