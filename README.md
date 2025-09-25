@@ -16,19 +16,22 @@ The dataset contains chest X-ray images categorized into:
 # Project Workflow
 
 1. Data Preprocessing:
+   
   -Dataset downloaded from Kaggle and unzip it
+  
   -Image resizing, normalization, and greyscale conversion
+  
   -Train/Validation/Test split loading
 
-2. Model Architecture:
+3. Model Architecture:
   -Custom CNN layers with Conv2D, MaxPooling, Dropout, and Dense layers
   -Binary classification output with ReLU activation
 
-3. Training and Evaluation:
+4. Training and Evaluation:
   -Training with accuracy and loss tracking
   -Validation and testing for performance assessment
 
-4. Result:
+5. Result:
   -The model achieved high accuracy on validation/test data
   -Demonstrated reliable classification between Normal and Pneumonia X-rays
 
