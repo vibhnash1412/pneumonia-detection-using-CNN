@@ -6,13 +6,17 @@ This project demonstrates how a Convolutional Neural Network (CNN) can be used t
 Dataset used: Chest X-Ray Images (Pneumonia) – Kaggle
 
 The dataset contains chest X-ray images categorized into:
+
 |-Train (Normal / Pneumonia)
+
 |-Validation (Normal / Pneumonia)
+
 |-Test (Normal / Pneumonia)
 
 # Project Workflow
 
-1. Data Preprocessing
+1. Data Preprocessing:
+
 Dataset downloaded from Kaggle and unzip it
 
 Image resizing, normalization, and greyscale conversion
@@ -20,16 +24,19 @@ Image resizing, normalization, and greyscale conversion
 Train/Validation/Test split loading
 
 2. Model Architecture
+
 Custom CNN layers with Conv2D, MaxPooling, Dropout, and Dense layers
 
 Binary classification output with ReLU activation
 
 3. Training and Evaluation
+
 Training with accuracy and loss tracking
 
 Validation and testing for performance assessment
 
 4. Result
+
 The model achieved high accuracy on validation/test data
 
 Demonstrated reliable classification between Normal and Pneumonia X-rays
@@ -41,6 +48,5 @@ Demonstrated reliable classification between Normal and Pneumonia X-rays
 
 # Future Improvements
 
-Experiment with transfer learning (VGG16, ResNet, EfficientNet).
-
-Deploy model in a web app (Flask/Streamlit).
+  Experiment with transfer learning (VGG16, ResNet, EfficientNet).
+  Deploy model in a web app (Flask/Streamlit).
